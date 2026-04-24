@@ -5,5 +5,5 @@ class Round:
         self.round_number = round_number
         
         
-    def generate_round(self)
+    def generate_round(self):
         pass
