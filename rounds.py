@@ -1,3 +1,4 @@
+STUDENT_NAME = "Habeeb Kazeem"
 
 class Round:
     def __init__(self, round_number):
