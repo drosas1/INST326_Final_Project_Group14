@@ -3,7 +3,7 @@ description: The core gameplay loop: The player defends a home base against wave
 
 grid.py - Contains the Grid and Cell classes. The Grid is where the game will be played on as a row of cells. Each cell one the grid can hold a base, tower, or enemy. There are current methods to add a row, place a tower, and get status of the board.
 
-
+rounds.py - Contains the round and RoundManager class which will handle the game's waves. The round class shows the specific round. The RoundManager will track enemys and determine when the round is over.
 
 
 
