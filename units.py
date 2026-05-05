@@ -47,7 +47,7 @@ class Tower(Unit):
         super().__init__(name, health, attack_power)
         self.attack_range = attack_range
         self.cost = cost
-        
+    
     def get_enemy(self, enemies):
         """get enemy method to get a list of enemies within range of the tower
         
@@ -59,4 +59,6 @@ class Tower(Unit):
         """
          
         pass
-            
+    
+class Enemy(Unit):
+    pass

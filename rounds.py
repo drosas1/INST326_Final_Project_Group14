@@ -94,6 +94,6 @@ if __name__ == "__main__":
     for _ in range(3):
         manager.start_round()
         print(f"\nEnemies this wave: {[e.name for e in manager.active_enemies]}")
-            manager.apply_damage_to_enemies(damage_per_enemy=50)
+        manager.apply_damage_to_enemies(damage_per_enemy=50)
 
         print(manager)
