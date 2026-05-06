@@ -1,6 +1,6 @@
 STUDENT_NAME = "Habeeb Kazeem"
 
-from Enemy_class import Enemy
+from units import Enemy
 
 
 class Round:

@@ -1,4 +1,4 @@
-STUDENT_NAME = "Deirick Rosas"
+STUDENT_NAME = "Deirick Rosas & Romario Harrison"
 
 class Unit:
     def __init__(self, name, health, attack_power):
@@ -8,6 +8,8 @@ class Unit:
             name (str): the name of unit like tower or enemy
             health (int): amount of health for unit as int
             attack_power (int): attack power for unit as int
+        
+        Author: Deirick R
         """
             
         self.name = name
@@ -42,6 +44,8 @@ class Tower(Unit):
             attack_power (int): amount of attack power for tower
             attack_range (int): effective range of tower
             cost (int): the cost of the tower
+            
+        Author: Deirick R
         """
         
         super().__init__(name, health, attack_power)
@@ -61,4 +65,18 @@ class Tower(Unit):
         pass
     
 class Enemy(Unit):
-    pass
+    def __init__(self, name, health_percentage, speed, attack_power):
+        """Initialize Enemy Class that inherits from Unit"""
+        super().__init__(name, health_percentage * 100, attack_power)
+        self.speed = speed
+        
+    def movement_block(self):
+        return self.speed #Default speed for all enemies
+    
+    def damage_taken(self, damage):
+        self.health -= damage
+        if self.health < 0:
+            self.health = 0 #health should not go below zero
+            
+    def is_defeated(self):
+        return self.health <= 0 #Enemy is defeated if health is zero or less
