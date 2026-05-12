@@ -34,6 +34,9 @@ If the player survives the wave, they earn currency to prepare for the next roun
 | Round.generate_enemies| Habeeb Kazeem| 8. Comprehensions and/or generator expressions|
 | RoundManager.check_round_over | Habeeb Kazeem | N/A |
 | Round.__str__ | Habeeb Kazeem | 14. Magic methods other than __init__() |
+| if_defeated | Romario Harrison| 3. F string |
+| _init_ | Romario Harrison | super(). |
+| damage_taken| Romario Harrison | N/A|
 
 
 
