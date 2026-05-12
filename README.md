@@ -37,6 +37,8 @@ If the player survives the wave, they earn currency to prepare for the next roun
 | if_defeated | Romario Harrison| 3. F string |
 | _init_ | Romario Harrison | super(). |
 | damage_taken| Romario Harrison | N/A|
+| Game.show_round_summary | Alex Yogiaveetil | sum() with a generator expression |
+| Game.award_currency | Alex Yogiaveetil | N/A |
 
 
 
