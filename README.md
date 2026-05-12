@@ -5,6 +5,12 @@ grid.py - Contains the Grid and Cell classes. The Grid is where the game will be
 
 rounds.py - Contains the round and RoundManager class which will handle the game's waves. The round class shows the specific round. The RoundManager will track enemys and determine when the round is over.
 
+game.py - Contains the main gameplay loop and controls the flow of the game.
+
+Enemy_class.py - Contains the Enemy class and enemy-related behavior such as movement, health, and damage handling.
+
+units.py - Contains tower/unit classes and attack logic used by the player.
+
 | Method/Function | Primary Author | Technique Claimed |
 |-----------------|----------------|-------------------|
 | Grid.add_row    | Deirick Rosas  | N/A |
