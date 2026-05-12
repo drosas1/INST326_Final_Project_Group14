@@ -5,7 +5,10 @@ grid.py - Contains the Grid and Cell classes. The Grid is where the game will be
 
 rounds.py - Contains the round and RoundManager class which will handle the game's waves. The round class shows the specific round. The RoundManager will track enemys and determine when the round is over.
 
-
+| Method/Function | Primary Author | Technique Claimed |
+|-----------------|----------------|-------------------|
+| Grid.add_row    | Deirick Rosas  | N/A |
+| Game.start | Deirick Rosas | 11. Composition of two custom classes |
 
 
 
