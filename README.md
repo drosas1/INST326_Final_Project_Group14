@@ -11,6 +11,21 @@ Enemy_class.py - Contains the Enemy class and enemy-related behavior such as mov
 
 units.py - Contains tower/unit classes and attack logic used by the player.
 
+# How to Run Game
+
+Run the game from the command line using:
+
+python game.py
+
+# How to Play Game
+
+The player defends a home base against waves of enemies.
+
+Before each round, the player can place towers on the grid using available currency. When the round starts, enemies begin moving toward the base automatically. Towers attack enemies until they are defeated.
+
+If the player survives the wave, they earn currency to prepare for the next round. The game ends if enemies destroy the base.
+
+
 | Method/Function | Primary Author | Technique Claimed |
 |-----------------|----------------|-------------------|
 | Grid.add_row    | Deirick Rosas  | N/A |
