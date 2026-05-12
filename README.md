@@ -9,6 +9,9 @@ rounds.py - Contains the round and RoundManager class which will handle the game
 |-----------------|----------------|-------------------|
 | Grid.add_row    | Deirick Rosas  | N/A |
 | Game.start | Deirick Rosas | 11. Composition of two custom classes |
+| Round.generate_enemies| Habeeb Kazeem| 8. Comprehensions and/or generator expressions|
+| RoundManager.check_round_over | Habeeb Kazeem | N/A |
+| Round.__str__ | Habeeb Kazeem | 14. Magic methods other than __init__() |
 
 
 
