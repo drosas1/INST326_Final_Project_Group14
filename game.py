@@ -21,7 +21,7 @@ class Game:
         """
         defeated = [e for e in enemies if e.is_defeated()]
         surviving = [e for e in enemies if not e.is_defeated()]
-        total_damage = sum(e.attack_power for e in defeated)
+        total_damage = len(defeated) * self.tower.attack_power
     
         print(f"\n{'='*40}")
         print(f"ROUND {round_number} SUMMARY")
